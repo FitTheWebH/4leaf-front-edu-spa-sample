@@ -1,0 +1,41 @@
+.tabArea {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tabArea .tabArea__tabs {
+  width: 60%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.tabArea .tabArea__tabs div {
+  width: 200px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+
+  margin: 5px;
+  border-radius: 5px;
+  background-color: rgb(59, 163, 163);
+  color: rgb(23, 22, 24);
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.tabArea .tabArea__tabs .active {
+  background-color: rgb(117, 116, 111);
+}
+
+.tabArea .tabArea__tabs div:hover {
+  box-shadow: 3px 3px 3px #777;
+}

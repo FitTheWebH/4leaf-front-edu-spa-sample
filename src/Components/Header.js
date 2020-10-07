@@ -3,8 +3,7 @@ import React from "react";
 const Header = () => {
   return (
     <div className="Header">
-      <div>INTRO</div>
-      <div>MEDIA</div>
+      <div>공주에 오신 것을 환영합니다</div>
     </div>
   );
 };
